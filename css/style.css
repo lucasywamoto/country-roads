@@ -14,12 +14,10 @@ h1 {
 
 .lyrics p {
     margin-top: 0px;
-    /* color: rgb(56, 42, 4); */
     color: rgb(255, 255, 190);
     font-size: 32px;
     font-family: 'Winter';
     transform: rotate(6deg);
-    /* text-shadow: 2px 2px 0 rgb(255, 255, 190); */
 }
 
 .sidebar {
@@ -40,28 +38,19 @@ h1 {
 }
 
 iframe {
-    position: relative;    
+    position: relative;
+    /* box-shadow: 4px 4px 25px rgba(255, 255, 190, 0.1);     */
 }
 
 .lyrics {
     width: 45%;
     padding: 80px 60px 60vh 0px;
     float: right;
-    /* background-color: rgb(218, 161, 6); */
 }
 
 .bottom img {
     width: 100vw;
     position: fixed;
     bottom: 0;
-    margin-top: 60px;
-}
-
-
-.BackgroundColorContainer_backgroundColorContainer__KSQbl {
-    display: none;
-}
-
-html body div#__next div div.encore-dark-theme.TrackWidget_widgetContainer__md1j0 div.BackgroundColorContainer_backgroundColorContainer__KSQbl {
-    background-color: aqua !important;
+    filter: drop-shadow(0px -20px 20px rgb(32, 44, 80));
 }
