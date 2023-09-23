@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    background-color: rgb(32, 44, 80);
+}
+
+h1 {
+    font-family: 'Olive';
+    font-size: 42px;
+    margin-bottom: 0;
+    -webkit-text-stroke: 0.6px rgb(255, 255, 190);
+    color: transparent;
+    text-shadow: 2px 2px 0 rgb(218, 161, 6);
+}
+
+.lyrics p {
+    margin-top: 0px;
+    /* color: rgb(56, 42, 4); */
+    color: rgb(255, 255, 190);
+    font-size: 32px;
+    font-family: 'Winter';
+    transform: rotate(6deg);
+    /* text-shadow: 2px 2px 0 rgb(255, 255, 190); */
+}
+
+.sidebar {
+    width: 35%;
+    height: 100vh;
+    padding: 60px 30px 0 60px;
+    text-align: right;
+    position: fixed;
+    float: left;
+    z-index: 1000;
+}
+
+.singer {
+    margin-top: 0px;
+    font-size: 28px;
+    font-family: 'Winter';
+    color: rgb(255, 255, 190);
+}
+
+iframe {
+    position: relative;    
+}
+
+.lyrics {
+    width: 45%;
+    padding: 80px 60px 60vh 0px;
+    float: right;
+    /* background-color: rgb(218, 161, 6); */
+}
+
+.bottom img {
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    margin-top: 60px;
+}
+
+
+.BackgroundColorContainer_backgroundColorContainer__KSQbl {
+    display: none;
+}
+
+html body div#__next div div.encore-dark-theme.TrackWidget_widgetContainer__md1j0 div.BackgroundColorContainer_backgroundColorContainer__KSQbl {
+    background-color: aqua !important;
+}
